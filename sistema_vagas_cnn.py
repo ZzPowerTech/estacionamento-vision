@@ -321,8 +321,8 @@ def main():
     
     # Câmera - Tente HTTPS primeiro, depois HTTP, depois webcam
     CAMERA_URLS = [
-        "https://192.168.1.5:8080/video",  # Câmera IP HTTPS
-        "http://192.168.1.5:8080/video",   # Câmera IP HTTP
+        "https://10.120.0.17:8080/video",  # Câmera IP HTTPS
+        "http://10.120.0.17:8080/video",   # Câmera IP HTTP
     ]
     
     # Tente primeiro com thread (mais rápido mas pode dar erro em algumas câmeras)

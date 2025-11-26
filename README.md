@@ -820,7 +820,7 @@ MIT License - Livre para uso pessoal e comercial.
 
 ## ✨ Créditos
 
-**Desenvolvido por:** Murilo  
+**Desenvolvido por:** Murilo Jean Claudio, Luiz Felipe, Herick Eduardo  
 **Datasets:** Rizwan Nazir (Kaggle), Stanford University  
 **Frameworks:** Ultralytics (YOLO), Google (TensorFlow)  
 **Inspiração:** Monitoramento inteligente de estacionamentos
@@ -868,3 +868,4 @@ python sistema_vagas_simples.py
 ```
 
 **Pronto! Sistema rodando em 5 minutos!** 🎉
+0
