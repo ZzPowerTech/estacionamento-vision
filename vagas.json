@@ -1,0 +1,42 @@
+{
+  "descricao": "Configuração das vagas de estacionamento",
+  "instrucoes": "Ajuste as coordenadas [x1, y1, x2, y2] de cada vaga conforme sua câmera/vídeo",
+  "como_mapear": [
+    "1. Execute o programa e pause o vídeo",
+    "2. Use ferramentas como Paint ou screenshot para identificar as coordenadas",
+    "3. x1, y1 = canto superior esquerdo da vaga",
+    "4. x2, y2 = canto inferior direito da vaga"
+  ],
+  "vagas": [
+    {
+      "id": 1,
+      "coords": [100, 150, 320, 350],
+      "descricao": "Vaga 1 - Exemplo"
+    },
+    {
+      "id": 2,
+      "coords": [340, 150, 540, 350],
+      "descricao": "Vaga 2 - Exemplo"
+    },
+    {
+      "id": 3,
+      "coords": [560, 150, 760, 350],
+      "descricao": "Vaga 3 - Exemplo"
+    },
+    {
+      "id": 4,
+      "coords": [100, 400, 320, 600],
+      "descricao": "Vaga 4 - Exemplo"
+    },
+    {
+      "id": 5,
+      "coords": [340, 400, 540, 600],
+      "descricao": "Vaga 5 - Exemplo"
+    },
+    {
+      "id": 6,
+      "coords": [560, 400, 760, 600],
+      "descricao": "Vaga 6 - Exemplo"
+    }
+  ]
+}
