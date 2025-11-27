@@ -96,28 +96,6 @@ A URL completa do vídeo depende do app:
 http://192.168.1.5:8080/video
 ```
 
-### 🔹 Passo 1.5: Posicionar a Câmera
-
-Para melhor detecção de vagas:
-
-📐 **Ângulo ideal:**
-
-- Câmera posicionada de **cima para baixo** (vista de pássaro)
-- Ângulo de 45° a 90° em relação ao chão
-- Toda a área de estacionamento visível
-
-💡 **Iluminação:**
-
-- Evite contra-luz (câmera apontada para janelas/sol)
-- Iluminação uniforme nas vagas
-- Se possível, use iluminação artificial à noite
-
-📱 **Estabilidade:**
-
-- Use um suporte para fixar o celular
-- Evite movimentos da câmera
-- Conecte o celular no carregador (vai ficar ligado muito tempo)
-
 ---
 
 ## 💻 Parte 2: Instalar o Sistema
@@ -303,10 +281,9 @@ Uma janela abrirá com a imagem da sua câmera.
 
 **Como marcar:**
 
-1. **Clique e segure** o botão esquerdo do mouse no canto superior esquerdo da vaga
-2. **Arraste** até o canto inferior direito
-3. **Solte** o botão do mouse
-4. Um retângulo colorido aparecerá
+1. **Abra o arquivo vagas.json**
+2. **Altere os valores das posições x,y**
+3. **confira as posições**
 
 **Repita** para cada vaga que você quer monitorar.
 
@@ -316,22 +293,6 @@ Uma janela abrirá com a imagem da sua câmera.
 - ✅ Não sobreponha retângulos
 - ✅ Marque apenas vagas claramente visíveis
 - ❌ Evite marcar vagas muito pequenas na imagem
-
-### 🔹 Passo 4.3: Salvar Configuração
-
-Quando terminar de marcar:
-
-1. Pressione **'s'** no teclado
-2. As vagas serão salvas em `vagas.json`
-3. Você verá a mensagem: `✅ Vagas salvas!`
-
-**Controles da ferramenta:**
-
-| Tecla   | Ação                                |
-| ------- | ----------------------------------- |
-| **'s'** | Salvar vagas em vagas.json          |
-| **'r'** | Resetar (apagar todas as marcações) |
-| **'q'** | Sair sem salvar                     |
 
 ### 🔹 Passo 4.4: Verificar Arquivo vagas.json
 
@@ -824,15 +785,6 @@ MIT License - Livre para uso pessoal e comercial.
 **Datasets:** Rizwan Nazir (Kaggle), Stanford University  
 **Frameworks:** Ultralytics (YOLO), Google (TensorFlow)  
 **Inspiração:** Monitoramento inteligente de estacionamentos
-
----
-
-## 📞 Suporte
-
-**Problemas?** Abra uma issue no GitHub ou consulte:
-
-- [Solução de Problemas](#-solução-de-problemas)
-- [Dicas e Truques](#-dicas-e-truques)
 
 ---
 
